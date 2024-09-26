@@ -28,8 +28,9 @@ html{
 #workImage{
     position: relative;
     max-height: 61vh;
-    top: -2vh;
-    left: -3%;
+    top: 15vh;
+    left: 10em;
+    border-radius: 3em;
 }
 
 .imageDiv{
@@ -184,4 +185,95 @@ html{
     border-radius: 15%;
     height: 12vw;
     background-color: #333333;
+}
+
+@media (min-width: 321px) and (max-width: 479px){
+    #workTitle{
+        font-size: 2em;
+    }
+
+    #workBrief{
+        font-size: 1em;
+    }
+
+    #workImage{
+        max-height: 9em;
+        min-width: 1em;
+        top: 8em;
+        left: 1em;
+        border-radius: 1em;
+    }
+
+    #instructionsTitle{
+        font-size: 2em;
+    }
+
+    #digitalTwinBrief-div{
+        height: 50%
+    }
+
+    #digitalTwinTitle{
+        max-width: 7em;
+        left: 1em;
+        top: 3em;
+        font-size: 2em;
+    }
+
+    #digitalTwinBrief{
+        font-size: 1em;
+        top: 7em;
+        left: 14.5em;
+        width: 10em;
+    }
+
+    #digitalTwinLine{
+        top: -8em;
+        left: 1em;
+        max-height: 4em;
+
+    }
+
+    #digitalTwinImage{
+        top: -7em;
+        max-width: 13em;
+        left: 0.6em;
+        overflow: hidden;
+        box-shadow: 5px 27px 17px #133b48;
+    }
+
+    #flowOfOperations-div{
+        top: 0em;
+        height: 50%;
+        max-width: 100%;
+
+    }
+
+    #flowOfOperationsTitle{
+        width: 9em;
+        font-size: 2em;
+        top: 2em;
+        left: 1em;
+    }
+
+    #flowOfOperationsBrief{
+        top: 5em;
+        left: 2em;
+        max-width: 60em;
+        min-width: 22em;
+        height: auto;
+        font-size: 1em;
+    }
+    
+    #flowOfOperationsImage{
+        max-height: 11em;
+        top: 6em;
+        left: 2em;
+        padding-bottom: 20px;
+    }
+
+    #flowOfOperationsLine{
+        top: -15em;
+        left: 1em;
+        height: 4em;
+    }
 }
