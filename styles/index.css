@@ -1,0 +1,286 @@
+#home {
+    /* The image used */
+    background-image: url("../images/laptopBackground.jpg");
+    backdrop-filter: blur(5px);
+
+
+    /* Center and scale the image nicely */
+    background-position: 0 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 70%;
+
+    filter: blur(5px);
+    height: 100vh;
+    width: 100%;
+}
+
+#mainLogo {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    /*position: relative;
+    top: -77vh;
+    left: 13vh;*/
+    width: 50vw;
+}
+
+#phrase {
+    position: absolute;
+    top: 55vh;
+    left: 10vw;
+    /*position: relative;
+    top: -50vh;
+    left: 10vw;*/
+    font-size: 3vw;
+    font-family: ubuntu, sans-serif;
+    font-weight: bold;
+    color: #2f93b3;
+}
+
+#iconsNav{
+    position: absolute;
+    top: 79vh;
+    left: -4vw;
+    text-align: center;
+    
+}
+
+#iconsNav td{
+    padding-left: 20vw;
+}
+
+.icons{
+    width: 6vw;
+}
+
+.header1{
+    color: white;
+    position: relative;
+    font-family: ubuntu,sans-serif;
+}
+
+/* Portrait smartphone (320px) 
+@media (max-device-width: 320px){
+    /* Responsive styles for this breakpoint 
+
+    #home{
+        height: 220vh;
+        width: 218vw;
+        background-position: -300vw 2vh;
+    }
+    #mainLogo {
+        position: absolute;
+        top: 20vh;
+        left: 8vw;
+        /*position: relative;
+        top: -77vh;
+        left: 13vh;*/
+
+    /*    width: 200vw;
+    }
+    
+    #phrase {
+        position: absolute;
+        top: 70vh;
+        left: 10vw;
+        /*position: relative;
+        top: -50vh;
+        left: 10vw;*/
+        /*
+        font-size: 20vw;
+        font-family: ubuntu, sans-serif;
+        font-weight: bold;
+        color: #2f93b3;
+    }
+    
+    #iconsNav{
+        position: absolute;
+        top: 170vh;
+        left: 10vw;
+        text-align: center;
+        
+    }
+    
+    #iconsNav td{
+        padding-left: 20vw;
+    }
+    
+    .icons{
+        width: 30vw;
+    }
+    
+  }
+
+@media (min-device-width: 321px) and (max-device-width: 479px){
+
+    /* Responsive styles for this breakpoint 
+
+    #home{
+        height: 198vh;
+        width: 197vw;
+        background-position: -30vw 2vh;
+    }
+    #mainLogo {
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        width: 130vw;
+    }
+    
+    #phrase {
+        position: absolute;
+        top: 55vh;
+        left: 10vw;
+        font-size: 17vw;
+        font-family: ubuntu, sans-serif;
+        font-weight: bold;
+        color: #2f93b3;
+    }
+    
+    #iconsNav{
+        position: absolute;
+        top: 140vh;
+        left: 12vw;
+        text-align: center;
+    }
+    
+    #iconsNav td{
+        padding-left: 20vw;
+    }
+    
+    .icons{
+        width: 20vw;
+    }
+    
+  }
+
+
+  
+  /* Landscape smartphone (480px) 
+  @media (min-device-width: 480px) and (max-device-width: 768px){
+    /* Responsive styles for this breakpoint 
+    
+    #home{
+        height: 140vh;
+        width: 139vw;
+        background-position: -30vw 2vh;
+    }
+
+    #mainLogo {
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        width: 80vw;
+    }
+    
+    #phrase {
+        position: absolute;
+        top: 70vh;
+        left: 20vw;
+        font-size: 6vw;
+        font-family: ubuntu, sans-serif;
+        font-weight: bold;
+        color: #2f93b3;
+    }
+    
+    #iconsNav{
+        position: absolute;
+        scale: 106%;
+        top: 110vh;
+        left: 2vw;
+        text-align: center;
+        
+    }
+    
+    #iconsNav td{
+        padding-left: 20vw;
+    }
+    
+    .icons{
+        width: 10vw;
+    }
+
+  }
+  
+  /* Portrait tablet (760px) 
+  @media (min-device-width: 760px) and (max-device-width:1023px){
+    /* Responsive styles for this breakpoint 
+    #home{
+        height: 110vh;
+        width: 106vw;
+    }
+    
+    #mainLogo {
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        width: 50vw;
+    }
+    
+    #phrase {
+        position: absolute;
+        top: 55vh;
+        left: 10vw;
+        font-size: 3vw;
+        font-family: ubuntu, sans-serif;
+        font-weight: bold;
+        color: #2f93b3;
+    }
+    
+    #iconsNav{
+        position: absolute;
+        top: 79vh;
+        left: -7vw;
+        text-align: center;
+        
+    }
+    
+    #iconsNav td{
+        padding-left: 20vw;
+    }
+    
+    .icons{
+        width: 6vw;
+    }
+    
+  }
+  
+  /* Desktop (1024px) 
+  @media (min-device-width: 1024px) and (max-device-width: 1460px){
+    /* Responsive styles for this breakpoint 
+    #mainLogo {
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+        width: 50vw;
+    }
+    
+    #phrase {
+        position: absolute;
+        top: 55vh;
+        left: 10vw;
+        font-size: 3vw;
+        font-family: ubuntu, sans-serif;
+        font-weight: bold;
+        color: #2f93b3;
+    }
+    
+    #iconsNav{
+        position: absolute;
+        top: 79vh;
+        left: -8vw;
+        text-align: center;
+        
+    }
+    
+    #iconsNav td{
+        padding-left: 20vw;
+    }
+    
+    .icons{
+        width: 6vw;
+    }
+    
+  }
