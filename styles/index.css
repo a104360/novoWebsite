@@ -61,9 +61,7 @@
     font-family: ubuntu,sans-serif;
 }
 
-/* Portrait smartphone (320px) 
-@media (max-device-width: 320px){
-    /* Responsive styles for this breakpoint 
+@media (max-width: 320px){
 
     #home{
         height: 220vh;
@@ -74,21 +72,14 @@
         position: absolute;
         top: 20vh;
         left: 8vw;
-        /*position: relative;
-        top: -77vh;
-        left: 13vh;*/
 
-    /*    width: 200vw;
+        width: 200vw;
     }
     
     #phrase {
         position: absolute;
         top: 70vh;
         left: 10vw;
-        /*position: relative;
-        top: -50vh;
-        left: 10vw;*/
-        /*
         font-size: 20vw;
         font-family: ubuntu, sans-serif;
         font-weight: bold;
@@ -113,9 +104,7 @@
     
   }
 
-@media (min-device-width: 321px) and (max-device-width: 479px){
-
-    /* Responsive styles for this breakpoint 
+@media (min-width: 321px) and (max-width: 479px){
 
     #home{
         height: 198vh;
@@ -158,9 +147,7 @@
 
 
   
-  /* Landscape smartphone (480px) 
-  @media (min-device-width: 480px) and (max-device-width: 768px){
-    /* Responsive styles for this breakpoint 
+  @media (min-width: 480px) and (max-width: 768px){
     
     #home{
         height: 140vh;
@@ -204,9 +191,7 @@
 
   }
   
-  /* Portrait tablet (760px) 
-  @media (min-device-width: 760px) and (max-device-width:1023px){
-    /* Responsive styles for this breakpoint 
+  @media (min-width: 760px) and (max-width:1023px){
     #home{
         height: 110vh;
         width: 106vw;
@@ -247,9 +232,7 @@
     
   }
   
-  /* Desktop (1024px) 
-  @media (min-device-width: 1024px) and (max-device-width: 1460px){
-    /* Responsive styles for this breakpoint 
+  @media (min-width: 1024px) and (max-width: 1460px){
     #mainLogo {
         position: absolute;
         top: 20vh;
