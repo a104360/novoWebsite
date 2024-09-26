@@ -107,22 +107,24 @@
 @media (min-width: 321px) and (max-width: 479px){
 
     #home{
-        height: 198vh;
-        width: 197vw;
-        background-position: -30vw 2vh;
+        max-height: 100%;
+        max-width: 100%;
+        background-position: -27vw -1vh;
+        background-size: 160% 102%;
     }
     #mainLogo {
         position: absolute;
-        top: 20vh;
+        top: 19vh;
         left: 10vw;
-        width: 130vw;
+        max-width: 100em;
+        min-width: 19em;
     }
     
     #phrase {
         position: absolute;
-        top: 55vh;
+        top: 43vh;
         left: 10vw;
-        font-size: 17vw;
+        font-size: 2em;
         font-family: ubuntu, sans-serif;
         font-weight: bold;
         color: #2f93b3;
@@ -130,8 +132,8 @@
     
     #iconsNav{
         position: absolute;
-        top: 140vh;
-        left: 12vw;
+        top: 34em;
+        left: -15vw;
         text-align: center;
     }
     
@@ -140,7 +142,11 @@
     }
     
     .icons{
-        width: 20vw;
+        width: 3em;
+    }
+
+    .header1{
+        font-size: 1em;
     }
     
   }

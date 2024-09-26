@@ -9,8 +9,9 @@ a{
 #topNavBar {
     background-color: white;
     max-width: 100%;
+    min-width: 50em;
     height: 10vh;
-    position: relative;
+    position: fixed;
     margin: 0;
     z-index: 2;
 }
