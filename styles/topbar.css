@@ -39,9 +39,6 @@ a{
 }
 
 @media (max-width: 320px){
-    #topNavBar{
-        
-    }
 
     #topNavBar-logo {
         height: 7vh;
@@ -72,7 +69,7 @@ a{
     }
 
     #topNavBar-links a{
-        margin-right: 0vw;
+        margin-right: 1vw;
     }
   }
 
