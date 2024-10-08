@@ -2565,8 +2565,15 @@ a:hover {
     #pc-div{
         padding-top: 47%;
     }
+
+    #pc{
+        height: 145%;
+        top: -15%;
+    }
+
     #words{
         top: 38vh;
+        visibility: hidden;
     }
     #phrase{
         top: 37%;
