@@ -290,3 +290,99 @@ html{
         height: 23vh;
     }
 }
+
+@media (min-width: 480px) and (max-width: 800px){
+    #workTitle{
+        font-size: 2em;
+        left: 4vw;
+    }
+
+    #workBrief{
+        font-size: 1em;
+        left: 4vw;
+    }
+
+    #workImage{
+        min-width: 1em;
+        top: 19vh;
+        left: 9vw;
+        border-radius: 1em;
+        max-width: 65vw;
+    }
+
+    #instructionsTitle{
+        font-size: 2em;
+        top: 25vh;
+        left: 4vw;
+    }
+
+    #digitalTwinBrief-div{
+        height: 50vh;
+        top: 10vh;
+    }
+
+    #digitalTwinTitle{
+        max-width: 7em;
+        left: 1em;
+        top: 3em;
+        font-size: 2em;
+    }
+
+    #digitalTwinBrief{
+        font-size: 1em;
+        top: 7em;
+        left: 2em;
+        width: 84vw;
+        max-width: 90vw;
+    }
+
+    #digitalTwinLine{
+        top: 0vh;
+        left: 1em;
+        max-height: 30vh;
+        height: 30vh;
+    }
+
+    #digitalTwinImage{
+        top: 1vh;
+        max-width: 25em;
+        left: 13vw;
+        overflow: hidden;
+        box-shadow: 5px 27px 17px #133b48;
+    }
+
+    #flowOfOperations-div{
+        top: 70vh;
+        height: 50%;
+        max-width: 100%;
+    }
+
+    #flowOfOperationsTitle{
+        width: 9em;
+        font-size: 2em;
+        top: 2em;
+        left: 1em;
+    }
+
+    #flowOfOperationsBrief{
+        top: 5em;
+        left: 2em;
+        max-width: 60em;
+        min-width: 38em;
+        height: auto;
+        font-size: 1em;
+    }
+    
+    #flowOfOperationsImage{
+        max-width: 68vw;
+        top: 6em;
+        left: 2em;
+        padding-bottom: 20px;
+    }
+
+    #flowOfOperationsLine{
+        top: -78.5vh;
+        left: 2vw;
+        height: 28vh;
+    }
+}
