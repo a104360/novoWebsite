@@ -386,3 +386,9 @@ html{
         height: 28vh;
     }
 }
+
+@media (max-height: 400px){
+    #flowOfOperationsLine{
+        top: -84vh;
+    }
+}
