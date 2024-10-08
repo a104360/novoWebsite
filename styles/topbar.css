@@ -13,7 +13,7 @@ a{
     height: 10vh;
     position: fixed;
     margin: 0;
-    z-index: 2;
+    z-index: 10;
 }
 
 #topNavBar-logo {
@@ -89,7 +89,7 @@ a{
     
     #topNavBar-links {
         font-size: 3vw;
-        left: 85vw;
+        left: 64vw;
         top: -3vh;
     }
     

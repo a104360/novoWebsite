@@ -8,12 +8,12 @@ html{
 
 
 h1{
-    font-size: 3vw;
+    font-size: 3em;
     max-width: 90vw;
 }
 
 span{
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 .left1{
@@ -77,4 +77,16 @@ span{
     flex-wrap: nowrap;
     left: 27vw;
     padding-bottom: 20vh;
+}
+
+
+
+@media (min-width: 321px) and (max-width: 479px){
+    span{
+        font-size: 1em;
+    }
+
+    h1{
+        font-size: 1em;
+    }
 }
