@@ -10,10 +10,12 @@ html{
 h1{
     font-size: 3em;
     max-width: 90vw;
+    color: #222222;
 }
 
 span{
     font-size: 2em;
+    color: white;
 }
 
 .left1{

@@ -9,7 +9,7 @@ html{
 #workTitle{
     color: #222222;
     position: relative;
-    top: 14vh;
+    top: 12vh;
     left: 10vw;
     font-size: 3vw;
     max-width: 89vw;
@@ -188,7 +188,7 @@ html{
 
 #flowOfOperationsLine {
     position: relative;
-    top: -47vh;
+    top: -53vh;
     left: 49vw;
     content: "";
     width: 7px;
@@ -212,6 +212,7 @@ html{
         top: 8em;
         left: 1em;
         border-radius: 1em;
+        max-width: 91vw;
     }
 
     #instructionsTitle{
@@ -234,30 +235,30 @@ html{
     #digitalTwinBrief{
         font-size: 1em;
         top: 7em;
-        left: 14.5em;
-        width: 10em;
+        left: 2em;
+        width: 84vw;
+        max-width: 90vw;
     }
 
     #digitalTwinLine{
-        top: -8em;
+        top: -2em;
         left: 1em;
-        max-height: 4em;
+        max-height: 9em;
 
     }
 
     #digitalTwinImage{
-        top: -7em;
-        max-width: 13em;
-        left: 0.6em;
+        top: -2vh;
+        max-width: 16em;
+        left: 13vw;
         overflow: hidden;
         box-shadow: 5px 27px 17px #133b48;
     }
 
     #flowOfOperations-div{
-        top: 1vh;
+        top: 18vh;
         height: 50%;
         max-width: 100%;
-
     }
 
     #flowOfOperationsTitle{
@@ -271,7 +272,7 @@ html{
         top: 5em;
         left: 2em;
         max-width: 60em;
-        min-width: 22em;
+        min-width: 20em;
         height: auto;
         font-size: 1em;
     }
@@ -284,8 +285,8 @@ html{
     }
 
     #flowOfOperationsLine{
-        top: -36.5vh;
+        top: -37.5vh;
         left: 4vw;
-        height: 10vh;
+        height: 23vh;
     }
 }
